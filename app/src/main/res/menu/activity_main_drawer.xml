@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/change_selection"
+            android:icon="@drawable/ic_baseline_school_24"
+            android:title="@string/change_selection" />
+        <item
+            android:id="@+id/set_date"
+            android:icon="@drawable/ic_baseline_date_range_24"
+            android:title="@string/set_date" />
+        <item
+            android:id="@+id/open_reports"
+            android:icon="@drawable/ic_baseline_feed_24"
+            android:title="@string/openReports" />
+        <item
+            android:id="@+id/service_switch"
+            android:title="@string/switch_text"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always" />
+    </group>
+</menu>
